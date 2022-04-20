@@ -1,3 +1,26 @@
-.wow {
-  width: 100px;
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+
+* {
+    background-color: black;
+    font-size:1em;
+    font-family: 'Oswald', sans-serif;
+}
+#myData {
+    font-size: 3rem;
+    margin: 10rem 15rem 10rem 15rem;
+    height: auto;
+    align: center;
+    text-align: center;
+    border: 3px solid blue;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+div {
+    padding: 1rem;
+}
+div h1 {
+    color: green;
 }
