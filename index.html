@@ -9,7 +9,7 @@
 </head>
 <body>
 <div id="myData">
-    <h1>My recent projects...</h1>
+    
 </div>
 <script type="text/javascript">
     fetch('data.json')
@@ -27,10 +27,22 @@
         let mainContainer = document.getElementById("myData");
         for (let i = 0; i < data.length; i++) {
             let div = document.createElement("h1");
-            div.innerHTML = ""+(i+1)+" "+ data[i].project;
+            let a = document.createElement("a");
+            div.appendChild(a);
+            a.innerHTML = /*"#"+(i+1)+" "+ */data[i].project;
+            a.href = data[i].link;
             mainContainer.appendChild(div);
+            /* when code becomes dumb adn u comment it out lol
+            console.log(document.querySelector(i).className);
+// The expected output is an empty string
+document.querySelector(i).className = "e"+i;
+console.log(document.querySelector(i).className);
+*/
         }
     }
+    
+
 </script>
+    
 </body>
 </html>
