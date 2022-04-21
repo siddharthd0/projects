@@ -4,6 +4,8 @@
     background-color: black;
     font-size:1em;
     font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 #myData {
     position: absolute;
@@ -21,33 +23,36 @@
     border-radius: 20px;
     color: white;
 }
-div {
 
-}
 div h1 {
     color: green;
-      padding: 0px 30px 0px 30px;
+    padding: 0px 30px 0px 30px;
 }
 a {
     transition: 500ms;
     background-color: transparent;
 }
 h1 {
-    margin: 0.3rem;
-    
+    margin: 0.4rem;
 }
 a:link {
-  color: green;
-  background-color: transparent;
-  text-decoration: none;
+      color: green;
+      background-color: transparent;
+      text-decoration: none;
 }
 a:hover {
     color:white;
 }
 .aaslkdmckls {
-
-    text-align:left;
-padding: .4rem;
-    font-size:1rem;
-   
+    padding: .4rem;
+    font-size:1rem; 
+}
+.footer {
+    color: white;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;   /* Height of the footer */
+    text-align: center;
+    border-bottom: 3px solid blue;
 }

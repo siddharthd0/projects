@@ -29,7 +29,7 @@
             let div = document.createElement("h1");
             let a = document.createElement("a");
             div.appendChild(a);
-            a.innerHTML = /*"#"+(i+1)+" "+ */data[i].project;
+            a.innerHTML = /*"#"+(i+1)+" "+ */" &#x2022; "+data[i].project;
             a.href = data[i].link;
             mainContainer.appendChild(div);
             /* when code becomes dumb adn u comment it out lol
@@ -43,6 +43,9 @@ console.log(document.querySelector(i).className);
     
 
 </script>
+    <footer class="footer">
+        <h3>Made with ❤️ by Siddharth </h3>
+    </footer>
     
 </body>
 </html>
