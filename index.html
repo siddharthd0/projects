@@ -1,13 +1,13 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
      <link href="style.css" rel="stylesheet" type="text/css" 
-    <title>Siddharth Codes</title>
 </head>
 <body>
+    <div class="container-section">
    <a href="https://siddharthduggal.com"><h4>Main Website</h4></a> 
 <div id="myData">
     <h2 class="aaslkdmckls">My recent projects...</h2>
@@ -33,12 +33,6 @@
             a.innerHTML = /*"#"+(i+1)+" "+ */" &#x2022; "+data[i].project;
             a.href = data[i].link;
             mainContainer.appendChild(div);
-            /* when code becomes dumb adn u comment it out lol
-            console.log(document.querySelector(i).className);
-// The expected output is an empty string
-document.querySelector(i).className = "e"+i;
-console.log(document.querySelector(i).className);
-*/
         }
     }
     
@@ -47,6 +41,6 @@ console.log(document.querySelector(i).className);
     <footer class="footer">
         <h3>Made with ❤️ by Siddharth </h3>
     </footer>
-    
+    </div>
 </body>
 </html>
